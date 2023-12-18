@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://db:3306/watermark
+    username: root
+    password: jiaze1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+  servelet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+
+
+
+
+
+#  table:
+#    auto: update
+#  model:
+#    pack: com.example.watermark_demo.data.entity.db_info
